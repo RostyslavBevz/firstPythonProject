@@ -1,4 +1,9 @@
-def celsius2fahren(degree):
+def celsius2fahren(degree=0):
+    """
+    Convert celsius temperature to fahrenheit
+    :param degree: can be int or string (default 0)
+    :return: int value
+    """
     try:
         degree = int(degree)
     except ValueError:
@@ -6,7 +11,3 @@ def celsius2fahren(degree):
     if degree < - 273:
         return False
     return degree + 273
-
-def ask_user():
-    user_val = input("Please, enter temperature in Celcius:")
-    print(celsius2fahren(user_val))
