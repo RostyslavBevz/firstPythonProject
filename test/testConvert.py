@@ -1,5 +1,4 @@
 import unittest
-
 from convertcelcius.Convert import celsius2fahren
 
 class TestConvertFunction(unittest.TestCase):
