@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import unittest
 from convertcelcius.Convert import celsius2fahren
 
